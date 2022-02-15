@@ -1,0 +1,14 @@
+form {
+    width: 50%!important;
+    margin-top: 2.5%!important;
+    margin-left: 25%!important;
+    border: 7.6px solid #dee2e6 !important;
+    padding: 12px;
+    background-color: #eaeaea;
+}
+
+
+
+#showDiv{
+    display: none;
+}

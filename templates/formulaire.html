@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form onsubmit="calculateNutriScore();return false;">
+    <label for="Energie">Energie</label>
+    <input class="form-control" type="text" name="Energie" id="Energie" value="0">
+    <label for="Mg">Matières grasses</label>
+    <input class="form-control" type="text" name="Mg" id="Mg" value="0">
+    <label for="AcideGrasSature">Acides gras saturés</label>
+    <input class="form-control" type="text" name="AcideGrasSature" id="AcideGrasSature" value="0">
+    <label for="Sucres">Sucres</label>
+    <input class="form-control" type="text" name="Sucres" id="Sucres" value="0">
+    <label for="Proteines">Proteines</label>
+    <input class="form-control" type="text" name="Proteines" id="Proteines" value="0">
+    <label for="Fibres">Fibres</label>
+    <input class="form-control" type="text" name="Fibres" id="Fibres" value="0">
+    <label for="Sel">Sel</label>
+    <input class="form-control" type="text" name="Sel" id="Sel" value="0">
+    <br>
+    <input class="form-control btn btn-light" type="submit" value="Soumettre">
+    <br>
+    <br>
+    <div id="showDiv" class="form-control" style="text-align: center"></div>
+
+</form>
+
+{% endblock %}
