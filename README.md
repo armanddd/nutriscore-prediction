@@ -1,7 +1,3 @@
-# Projet 1 - Groupe 2
-
-
-
 # Utilisation du modéle
 
 `from joblib import load` \
